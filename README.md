@@ -22,7 +22,7 @@ npm run dev
 2. Click the Load unpacked button and select the dist folder that is created by Webpack.
 
 ### debugging
-To easily debug the extension go to the following page: [chrome-extension://{ID-of-your-extension}/popup.html]() 
+To easily debug the extension go to the following page: [chrome-extension://{ID-of-your-extension}/App.html]() 
 <br>
 Replace the ID-of-your-extension to your ID
 
