@@ -1,5 +1,6 @@
 import React from "react";
-import { render } from "react-dom";
+import { createRoot } from 'react-dom/client';
+
 import "./App.css";
 
 export default function App() {
@@ -11,4 +12,5 @@ export default function App() {
   )
 }
 
-render(<App />, document.getElementById("react-target"));
+const root = createRoot( document.getElementById("app"));
+root.render(<App />);
